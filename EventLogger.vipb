@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-11-20 12:19:13" Modified_Date="2018-11-20 14:59:16" Creator="Win7VM" Comments="" ID="0e378d2396adc29b1d97b498668935f9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-11-20 12:19:13" Modified_Date="2018-11-25 13:10:11" Creator="Win7VM" Comments="" ID="f3a75af6776f07178f64976cfc02db8a">
   <Library_General_Settings>
     <Package_File_Name>AJ_lib_EventLogger</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>oglib_file &gt;=4.0.0.20</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_string &gt;=4.0.0.6</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_time &gt;=4.0.0.2</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -58,8 +59,7 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-z</Description>
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</Description>
       <Copyright/>
       <Packager>Ajay</Packager>
       <URL>www.digiajay.com</URL>
@@ -348,7 +348,7 @@ z</Description>
         <Path>EventLogger_Actor Messages\RenameEventFile Msg\Send RenameEventFile.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A97950B0C2E78DC456BD4A35AE323A5E</GUID>
+      <GUID>025F78F439E17F180437FE7BE691B01B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
